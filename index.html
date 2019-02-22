@@ -15,7 +15,17 @@
   <main>
     <div class="container">
       <div class="lead">
-        <h1 class="lead__heading">Hi, I'm Mehul Padwal</h1>
+        <h1 class="lead__heading">Hi, I'm <span id="typed"></span></h1>
+        <script type="text/javascript" src="js/typed.js"></script>
+        <script type="text/javascript">
+              var typed2 = new Typed('#typed', {
+            strings: ['Mehul Padwal', 'Software Developer', 'Data Engineer', 'Web Developer'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            smartBackspace: true,
+            loop: true
+          });
+        </script>
         <div class="lead__sub">
           I'm a Master's Student currently taking up Computer Science at Syracuse University. I <a href="#exp">worked</a> as an Associate Software Developer at Accenture for 1 year. I enjoy building
           everything from small business sites to rich interactive web apps. Please feel free to check my <a href="#proj">projects</a>! 
