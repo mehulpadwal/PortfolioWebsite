@@ -128,7 +128,7 @@ body {
 }
 
 .skill-tag {
-    background-color: #eceff5;
+    background-color: #dee3ed;
     display: inline-block;
     padding: 4px 8px
 }
@@ -268,7 +268,7 @@ body {
 
 .timeline__line {
     width: 1px;
-    background: #eaeaea;
+    background: #dee3ed;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -304,7 +304,7 @@ body {
 .timeline__item:after {
     height: 1px;
     top: 0;
-    background-color: #eaeaea;
+    background-color: #dee3ed;
     content: '';
     display: block;
     left: inherit;
